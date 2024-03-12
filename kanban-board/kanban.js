@@ -1,0 +1,14 @@
+let addBtn = document.querySelector('.add-btn');
+let removeBtn = document.querySelector('.remove-btn');
+let textAreacont = document.querySelector('.textArea-cont');
+let modalCont = document.querySelector('.modal-cont');
+let allPriorityColors = document.querySelectorAll('.priority-color');
+let mainContainer = document.querySelector('.main-container');
+let toolboxColors = document.querySelectorAll('.color');
+let addTaskFlag = false;
+let removeTaskFlag = false;
+let lockClass = 'fa-lock';
+let unlockClass = 'fa-lock-open';
+let colors = ["lightpink", "lightgreen", "lightblue", "black"];
+let modalPriorityColor = colors[colors.length - 1];
+let ticketsArr = [];
